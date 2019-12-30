@@ -56,7 +56,7 @@ File located at `.vscode/settings.json`
 
 ### .eslintrc
 
-```json
+```javascript
 module.exports = {
   root: true,
   env: {
