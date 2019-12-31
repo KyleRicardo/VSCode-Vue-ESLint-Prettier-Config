@@ -1,6 +1,6 @@
 # VSCode-Vue-ESLint-Prettier-Config
 
-I was almost driven mad in the latest 2 months just because of the conflict among these vscode extensions - vetur, eslint and prettier. I have to admit that these extensions are all fantastic, but get them to cooperate seemed to be the *Mission:Impossible*. Finally i made up my mind to stick to it and I found a workaround. Maybe it is not the best, but at least it works.
+I was almost driven mad in the latest 2 months just because of the conflict among these vscode extensions - vetur, eslint and prettier. I have to admit that these extensions are all fantastic, but get them to cooperate seemed to be the *Mission: Impossible*. Finally I made up my mind to stick to it and I found a workaround. Maybe it is not the best, but at least it works.
 
 ### Extensions you need
 
@@ -8,6 +8,12 @@ I was almost driven mad in the latest 2 months just because of the conflict amon
 - ESLint - for linting
 - Prettier - for general code formatting
 - Manta's Stylus Supremacy - for formatting stylus
+
+### vue-cli config option
+
+When choosing `Pick a linter/formatter config`， it is recommended that we use the `ESLint + Standard config` option, this can save us a lot of time. The reason why we don't choose other options is `Airbnb` often goes with React.js, not Vue.js, and `Prettier` will make things very complex.
+
+In a word, choosing **STANDARD** config will make your life much easier.
 
 ### vscode workspace settings.json
 
@@ -54,7 +60,7 @@ File located at `.vscode/settings.json`
 }
 ```
 
-### .eslintrc
+### .eslintrc.js
 
 ```javascript
 module.exports = {
